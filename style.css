@@ -1,0 +1,254 @@
+.container {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  /*ColdDrip logon längst upp till vänster*/ 
+  .item {
+    flex-grow: 1; 
+    height: 60px; 
+    width: 80px;  
+    display: flex; 
+    text-align: center; 
+    font-size: 100px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin-top: 1%; 
+    
+    
+   }
+  
+   /*boxes som är längst upp med blå färg*/ 
+  .item + .item {
+    margin-left: 35%;
+    display: flex;
+    width: 40px; 
+    height: 135px; 
+    background-color: rgb(28, 154, 212);  
+    margin: 3px; 
+    font-size: 40px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    justify-content: center; 
+    color: white;  
+    
+  } 
+/* design för text*/
+  a {
+    text-decoration: none; 
+    color: white; 
+  }
+  
+  /*background*/ 
+  body {
+
+    background-color: #d7f8fa; 
+    font-family: serif; 
+    font-size: 50px; 
+    margin-bottom: 100px;
+    height: 500px;
+  }    
+/*container för startsidan*/ 
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 20px;
+  
+  }
+  /* bilder/produkter på startsidan, home-item 1, 2, 3 har samma style)*/
+.home-item { 
+    width: 32%; 
+    padding-bottom: 5%;  
+    margin-top: 120px; 
+    font-size: 30px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  }
+
+.home-item1 { 
+
+    width: 32%;  
+    position: relative;  
+    justify-content: space-between; 
+    text-align: center;  
+    
+    
+}
+
+.home-item2 {
+    width: 32%; 
+    position: relative; 
+    justify-content: space-between; 
+    text-align: center; 
+    font-size: 30px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+.home-item3 { 
+
+    width: 32%; 
+    position: relative;   
+    justify-content: space-between; 
+    text-align: center; 
+    font-size: 30px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+
+}
+ 
+
+/*Rubriken för startsidan*/ 
+.index-header {
+
+    text-align: center; 
+    font-size: 1cm;        
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    
+} 
+/*Underrubriken för startsidan*/ 
+.index-header1 {
+
+  text-align: center; 
+  font-size: 1cm;        
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+/*container för Produkter*/
+.products-container {
+
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-content: center; 
+  padding-bottom: 5%; 
+}  
+/* bilderna/prodkterna på Produkt sidan (products-item1 , 2, 3, 4, 5, 6. har samma style)*/
+.products-item1 {
+
+  width: 32%; 
+  position: relative; 
+  margin-bottom: 2%; 
+  justify-content: space-between; 
+  text-align: center; 
+  font-size: 30px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  padding-bottom: 5%;  
+}
+
+.products-item2 {
+
+  width: 32%;  
+  position: relative; 
+  margin-bottom: 2%; 
+  justify-content: space-between; 
+  text-align: center; 
+  font-size: 30px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products-item3 {
+
+  width: 32%; 
+  position: relative; 
+  margin-bottom: 2%; 
+  justify-content: space-between; 
+  text-align: center; 
+  font-size: 30px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+/* Produkt rubriken*/
+.prod-header {
+
+  text-align: center; 
+  font-size: 1cm;        
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+.products-item4 {
+
+  width: 32%;  
+  position: relative; 
+  margin-bottom: 2%; 
+  justify-content: space-between; 
+  text-align: center; 
+  font-size: 30px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.products-item5 {
+
+  width: 32%;  
+  position: relative; 
+  margin-bottom: 2%; 
+  justify-content: space-between; 
+  text-align: center; 
+  font-size: 30px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.products-item6 {
+
+  width: 32%;  
+  position: relative; 
+  margin-bottom: 2%; 
+  justify-content: space-between; 
+  text-align: center; 
+  font-size: 30px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+/*About rubriken*/ 
+.about-header {
+
+  text-align: center; 
+  font-size: 1cm;        
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/* Om oss texten på About*/ 
+.about-header2 {
+
+text-align: left; 
+font-size: 0.62cm; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+padding-left: 25px; 
+text-align: center; 
+padding-bottom: 10%;
+
+}
+/*det är rubriken för kontakt sidan*/
+.contact-header { 
+
+  text-align: center; 
+  font-size: 1cm;        
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+} 
+/* det ät text som inehåller text med kontakter på contact*/
+.contract-header2 {
+
+  text-align: left; 
+  font-size: 0.62cm; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  padding-left: 25px; 
+  padding-bottom: 10%;    
+
+
+}  
+
+/* det är footer för alla sidor*/
+.footer {
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(28, 154, 212);
+  color: white;
+  text-align: center;
+  height: 10%;  
+  font-size: 50%; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  
+} 
+
+
+
+
+  
